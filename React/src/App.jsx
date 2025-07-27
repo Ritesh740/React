@@ -13,10 +13,14 @@ import Profile from "./Usestate/Profile";
 import ShoppingList from "./Usestate/ShoppingList";
 import BasicEffect from "./UseEffect/BasicEffect";
 import CounterEffect from "./UseEffect/CounterEffect";
+import FetchData from "./UseEffect/FetchData";
+import "./index.css";
 function App() {
   return (
     <div>
-      <CounterEffect />
+     <h1 className="bg-amber-200 p-4 m-4text-3xl font-bold underline">
+    Hello world!
+  </h1>
     </div>
   );
 }
