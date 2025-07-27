@@ -11,10 +11,12 @@ import Counter from "./Usestate/counter";
 import Todolist from "./Usestate/Todolist";
 import Profile from "./Usestate/Profile";
 import ShoppingList from "./Usestate/ShoppingList";
+import BasicEffect from "./UseEffect/BasicEffect";
+import CounterEffect from "./UseEffect/CounterEffect";
 function App() {
   return (
     <div>
-      <ShoppingList />
+      <CounterEffect />
     </div>
   );
 }
