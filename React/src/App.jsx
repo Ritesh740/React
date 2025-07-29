@@ -1,26 +1,11 @@
+// App.jsx
 import React from "react";
-import Greeting from "./practice2/Greeting";
-import Productioninfo from "./practice2/Productioninfo";
-import Userlist from "./practice2/userlist";
-import Cart from "./practice2/Cart";
-import Wheater from "./practice2/Wheater";
-import { FaUserCircle } from "react-icons/fa";
-import Profilecard from "./csspractice/Profilecard";
-import Stylecard from "./csspractice/Stylecard";
-import Counter from "./Usestate/counter";
-import Todolist from "./Usestate/Todolist";
-import Profile from "./Usestate/Profile";
-import ShoppingList from "./Usestate/ShoppingList";
-import BasicEffect from "./UseEffect/BasicEffect";
-import CounterEffect from "./UseEffect/CounterEffect";
-import FetchData from "./UseEffect/FetchData";
-import "./index.css";
+import Counter from "./UseReducer/Counter";
+
 function App() {
   return (
     <div>
-     <h1 className="bg-amber-200 p-4 m-4text-3xl font-bold underline">
-    Hello world!
-  </h1>
+      <Counter />
     </div>
   );
 }
